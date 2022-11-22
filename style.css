@@ -1,0 +1,353 @@
+body {
+    background-color: #333;
+    line-height: 1.5rem;
+    text-align: center;
+}
+header {
+    display: block;
+}
+#showcase {
+    min-height: 450px;
+    color: white;
+    text-align: center;
+}
+
+
+.bg-image {
+    position: absolute;
+    background: #222222 url(https://code.visualstudio.com/assets/docs/languages/javascript/overview.png);
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.titulo_principal {
+    font-size: 30px;
+    padding: 1em;
+    color: white;
+    font-weight: 700;
+    padding-top: 5rem;
+}
+
+.paragrafo_principal {
+    font-size: 20px;
+    padding: 2em 1em;
+}
+
+.botao_header {
+    padding: 1.3rem;
+    background-color: transparent;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+.botao_header:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+
+    cursor: pointer;
+
+}
+
+.section-A {
+    background-color:#eaeaea;
+}
+
+.section-B {
+    background-color: #333;
+    padding: 5%;
+}
+
+.section-C {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 2em;
+}
+
+.section-D {
+    background-color: #2690d4;
+    padding: 2em;
+    color: white;
+    text-align: center;
+}
+
+.titulo_principal-main {
+    font-size: 30px;
+    padding: 1em 0 1.5em 0;
+    color: black;
+    text-align: center;
+}
+
+.paragrafo_principal-main {
+    font-size: 20px;
+    margin: 0 25px;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.card_image {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.titulo_principal-sectionb { 
+    font-size: 24px; 
+    font-weight: 700;
+    text-align: center;
+    margin: 1.5em 0
+}
+
+.paragrafo_principal-sectionb {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 1rem;
+    padding-bottom: 3rem;
+    color: black;
+}
+
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 1.5em;
+}
+
+.titulo_principal-sectionc {
+    font-size: 30px;
+    padding: 1.5em;
+    font-weight: 700;
+}
+
+.paragrafo_principal-sectionc {
+    font-size: 20px;
+    padding: 1em 0 1em 0;
+    font-weight: 400;
+}
+
+.box {
+    padding: 2em;
+    color: white;
+}
+
+.titulo_principal-box {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1.5em 0;
+}
+
+.paragrafo_principal-box {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1em 0;
+    margin-bottom: 1em;
+
+}
+
+.footer {
+    padding: 3em;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer_href {
+    color: red;
+}
+
+.quebralinha {
+    display: none;
+}
+
+    @media screen and (min-width: 700px) {
+        body {
+            font-size: 1.1em;
+        }
+        
+
+        .bg-image {
+            position: absolute;
+            background: #222222 url(https://jonhnnyweslley.net/pt-br/blog/como-utilizar-ia-para-aumentar-sua-produtividade-em-programacao/tabnine_python_demo.gif);
+            height: 450px;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        
+        .titulo_principal {
+            font-size: 30px;
+            padding: 1em;
+            color: red;
+            text-shadow: 2px 2px black;
+            font-weight: 700;
+            padding-top: 5rem;
+        }
+        
+        .paragrafo_principal {
+            font-size: 20px;
+            padding: 2em 1em;
+        }
+        
+        .botao_header {
+            padding: 1.3rem;
+            background-color: transparent;
+            padding: 1em 2em;
+            border: 1px solid #666;
+            margin: 0.5em 0;
+        }
+        
+        
+        .section-A {
+            background-color:#eaeaea;
+            padding: 0.5em 1em 1em 1em;
+        }
+        
+        .section-B {
+            background-color: #333;
+            padding:2em 1em 2em 1em;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .section-C {
+            background-color: #eaeaea;
+            text-align: center;
+            padding: 2em 1em 1em 1em;
+        }
+        
+        .section-D {
+            background-color: #2690d4;
+            padding: 2em;
+            color: white;
+            text-align: center;
+        }
+        
+                
+        .flex {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            width: 60%;
+            margin: 2em auto;
+        }
+
+        .ladoa {
+            font-size: 20px;
+            margin-right: 4%;
+        }
+
+        .ladob {
+            font-size: 20px;
+            margin-left: 4%;
+        }
+
+        .titulo_principal-main {
+            font-size: 30px;
+            color: black;
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .card_image {
+            width: 100%;
+        }
+        
+        .titulo_principal-sectionb { 
+            font-size: 24px; 
+            font-weight: 700;
+            text-align: center;
+            margin: 1.5em 0
+        }
+        
+        .paragrafo_principal-sectionb {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0 1rem;
+            padding-bottom: 3rem;
+            color: black;
+        }
+        
+        
+        .card{
+            background-color: white;
+            border-radius: 10px;
+            width: 20%;
+            margin: 0 2.5rem;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            transition: all 0.5s;
+
+        }
+
+
+        li {
+            list-style: none;
+        }
+        
+        .card_lista {
+            display: flex;
+            list-style: none;
+        }
+        
+        .titulo_principal-sectionc {
+            font-size: 30px;
+            padding: 1.5em;
+            font-weight: 700;
+        }
+        
+        .paragrafo_principal-sectionc {
+            font-size: 20px;
+            padding: 1em 0 1em 0;
+            font-weight: 400;
+        }
+        
+        .box {
+            padding: 2em;
+            color: white;
+        }
+        
+        .titulo_principal-box {
+            font-size: 30px;
+            font-weight: 700;
+            padding: 1.5em 0;
+        }
+        
+        .paragrafo_principal-box {
+            font-size: 20px;
+            font-weight: 400;
+            padding: 1em 0;
+            margin-bottom: 1em;
+        
+        }
+        
+        .footer {
+            padding: 3em;
+            background-color: black;
+            color: white;
+            font-size: 1.1em;
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        .footer_href {
+            color: red;
+        }
+    }
